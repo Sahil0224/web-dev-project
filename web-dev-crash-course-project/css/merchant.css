@@ -1,33 +1,36 @@
 .merchant-info {
-    display: flex;
-    align-items: center;
-     /* Optional: Add a background color */
-    padding: 10px; /* Adjust padding as needed */
-    margin-right: 20px; /* Adjust as needed */
-  }
-  
-  .merchant-image {
-    margin-right: 10px;
-  }
-  
-  .merchant-image img {
-    max-height: 100px; /* Adjust image size as needed */
-    height: auto;
-  
-  }
-  
-  .merchant-details {
-    display: flex;
-    flex-direction: column;
-  }
-  .merchant-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px;
-  }
-  
-  .merchant-name {
-    font-weight: bold;
-    font-size: 3em;
-  }
+  display: flex;
+  align-items: center;
+   /* Optional: Add a background color */
+  padding: 10px; /* Adjust padding as needed */
+  margin-right: 20px; /* Adjust as needed */
+}
+
+.merchant-image {
+  margin-right: 10px;
+}
+
+.merchant-image img {
+  max-height: 100px; /* Adjust image size as needed */
+  height: auto;
+
+}
+
+.merchant-details {
+  display: flex;
+  flex-direction: column;
+}
+.merchant-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  border-radius: 5px;
+  align-items: center;
+  padding:25px;
+  margin-left: 200px;
+}
+
+.merchant-name {
+  font-weight: bold;
+  font-size: 3em;
+}
