@@ -1,9 +1,8 @@
 .merchant-info {
   display: flex;
   align-items: center;
-   /* Optional: Add a background color */
-  padding: 10px; /* Adjust padding as needed */
-  margin-right: 20px; /* Adjust as needed */
+  padding: 10px; 
+  margin-right: 20px;
 }
 
 .merchant-image {
@@ -11,7 +10,7 @@
 }
 
 .merchant-image img {
-  max-height: 100px; /* Adjust image size as needed */
+  max-height: 100px; 
   height: auto;
 
 }
@@ -27,10 +26,14 @@
   border-radius: 5px;
   align-items: center;
   padding:25px;
-  margin-left: 200px;
+  margin-left: -200px;
 }
 
 .merchant-name {
   font-weight: bold;
   font-size: 3em;
+}
+
+.operating-hours {
+  margin-left: 200px;
 }
