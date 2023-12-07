@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+  }
+  
+.header {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: white;
+  }
+  
+  .clover-logo {
+    margin-left: 200px; 
+  }
+  
+  .cart-logo img{
+    max-height: 50px; 
+    margin-right: 200px; 
+    cursor: pointer;
+  }
+  
