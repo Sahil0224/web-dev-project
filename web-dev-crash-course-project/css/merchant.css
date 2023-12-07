@@ -1,18 +1,33 @@
 .merchant-info {
     display: flex;
     align-items: center;
-}
-
-.merchant-image {
-    margin-right: 10px; /* Adjust margin as needed */
-}
-
-.merchant-image img {
-    width: 100px; /* Adjust image size as needed */
+     /* Optional: Add a background color */
+    padding: 10px; /* Adjust padding as needed */
+    margin-right: 20px; /* Adjust as needed */
+  }
+  
+  .merchant-image {
+    margin-right: 10px;
+  }
+  
+  .merchant-image img {
+    max-height: 100px; /* Adjust image size as needed */
     height: auto;
-}
-
-.merchant-details {
+  
+  }
+  
+  .merchant-details {
     display: flex;
     flex-direction: column;
-}
+  }
+  .merchant-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+  }
+  
+  .merchant-name {
+    font-weight: bold;
+    font-size: 3em;
+  }

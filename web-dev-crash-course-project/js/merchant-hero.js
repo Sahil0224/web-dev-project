@@ -20,14 +20,21 @@ class MerchantHero {
      const merchantCity = data.address.city;
      const merchantState = data.address.state;
      const merchantPhone = data.phone;
+     const address = `${merchantAddress}, ${merchantAddress2}, ${merchantCity} ${merchantState}`
      this.container.innerHTML = `
-     <div> 
-        <img alt="logo" src=${merchantLogo} />
-        <p>${merchantName}</p>
-        <p>${merchantAddress}, ${merchantAddress2}, ${merchantCity} ${merchantState}</p>
-        <p>${merchantPhone}</p>
-     </div>`
-  };
+    <div class="merchant-wrapper">
+        <div class="merchant-info">
+            <div class="merchant-image">
+                <img src="${merchantLogo}" alt="${merchantName} Image">
+            </div>
+            <div class="merchant-details">
+                <div class="merchant-name">${merchantName}</div>
+                <div class="merchant-address">${address}</div>
+                <div class="merchant-phone">${merchantPhone}</div>
+            </div>
+        </div>
+    </div>`;
+  }
 
   render() {
     this.container.innerHTML = `<div>!! --Merchant Hero Component-- !!</div>`;
